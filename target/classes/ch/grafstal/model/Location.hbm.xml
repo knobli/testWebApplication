@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name="ch.grafstal.model.Location" table="tbl_wettkampforte">
+      <meta attribute="class-description">
+         This class contains the location detail. 
+      </meta>
+      <id name="id" type="int" column="ID_Wettkampfort">
+         <generator class="native"/>
+      </id>
+      <property name="name" column="Wettkampfort" type="string"/>
+   </class>
+</hibernate-mapping>
