@@ -13,13 +13,13 @@
 
    <!-- Assume test is the database name -->
    <property name="hibernate.connection.url">
-      jdbc:mysql://localhost/usr_web322_5
+      jdbc:mysql://localhost/
    </property>
    <property name="hibernate.connection.username">
-      web322
+
    </property>
    <property name="hibernate.connection.password">
-      mAsanori99
+ 
    </property>
    
    <property name="hibernate.connection.CharSet">utf8</property>
